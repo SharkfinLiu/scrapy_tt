@@ -27,3 +27,28 @@ class GupiaoItem(scrapy.Item):
     age_sex = scrapy.Field()
     des = scrapy.Field()
     com_name = scrapy.Field()
+
+
+class YulestarItem(scrapy.Item):
+    name = scrapy.Field()
+    cat = scrapy.Field()
+
+
+class ChuangyeItem(scrapy.Item):
+    name = scrapy.Field()
+    lever = scrapy.Field()
+    fie = scrapy.Field()
+    time = scrapy.Field()
+    all_name =scrapy.Field()
+
+class TouzijigouItem(scrapy.Item):
+    name = scrapy.Field()
+    fav = scrapy.Field()
+    fie = scrapy.Field()
+    time = scrapy.Field()
+
+class TouzirenItem(scrapy.Item):
+    name = scrapy.Field()
+    position = scrapy.Field()
+    fie = scrapy.Field()
+    company = scrapy.Field()

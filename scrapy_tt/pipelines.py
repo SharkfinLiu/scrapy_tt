@@ -48,3 +48,55 @@ class GupiaoUsPipeline(object):
 
     def spider_closed(self, spider):
         self.file.close()
+
+
+class YulePipeline(object):
+    def __init__(self):
+        self.file = codecs.open("Yulestar", 'a', encoding='utf-8')
+
+    def process_item(self, item, spider):
+        line = item['name']+'\t'+item['cat'] + "\n"
+        self.file.write(line)
+        return item
+
+    def spider_closed(self, spider):
+        self.file.close()
+
+
+class ChuangyeComPipeline(object):
+    def __init__(self):
+        self.file = codecs.open("chuangye_com", 'a', encoding='utf-8')
+
+    def process_item(self, item, spider):
+        line = item['all_name']+'\t'+item['name']+'\t'+item['lever']+'\t'+item['fie']+'\t'+item['time'] + "\n"
+        self.file.write(line)
+        return item
+
+    def spider_closed(self, spider):
+        self.file.close()
+
+
+class TouzijigouPipeline(object):
+    def __init__(self):
+        self.file = codecs.open("touzijigou", 'a', encoding='utf-8')
+
+    def process_item(self, item, spider):
+        line = item['name']+'\t'+item['time']+'\t'+item['fav']+'\t'+item['fie'] + "\n"
+        self.file.write(line)
+        return item
+
+    def spider_closed(self, spider):
+        self.file.close()
+
+
+class TouzirenPipeline(object):
+    def __init__(self):
+        self.file = codecs.open("touziren", 'a', encoding='utf-8')
+
+    def process_item(self, item, spider):
+        line = item['name']+'\t'+item['company']+'\t'+item['position']+'\t'+item['fie'] + "\n"
+        self.file.write(line)
+        return item
+
+    def spider_closed(self, spider):
+        self.file.close()
