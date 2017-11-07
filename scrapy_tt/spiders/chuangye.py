@@ -74,7 +74,7 @@ class TouzijigouSpider(scrapy.Spider):
                 is_has = True
                 item = TouzijigouItem()
                 item['time'] = ''.join(sel.xpath('td[3]/text()').extract())
-                item['name'] = ''.join(sel.xpath('td[@class="table-company2-tit"]/a/span/text()').extract())
+                item['name'] = ''.join(sel.xpath('td[@class="table-follow"]/a/@data-title').extract())
                 item['fav'] = ','.join(sel.xpath('td[5]/text()').extract())
                 item['fie'] = re.sub('\s','',','.join(sel.xpath('td[6]/text()').extract()))
                 yield item

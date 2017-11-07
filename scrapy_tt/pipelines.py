@@ -6,6 +6,8 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 import json
 import codecs
+from scrapy import signals
+
 
 
 
@@ -63,6 +65,31 @@ class YulePipeline(object):
         self.file.close()
 
 
+
+
+class YuleBaikePipeline(object):
+    def __init__(self,output_file):
+        self.file = codecs.open(output_file, 'a', encoding='utf-8')
+
+    def process_item(self, item, spider):
+        line = item['name']+'asd'+"\n"
+        self.file.write(line)
+        return item
+
+    def spider_closed(self, spider):
+        self.file.close()
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        output_file = crawler.settings.get('output_file')
+        # if not output_file:
+        #     output_file = "list_result" if crawler.spider.name == "sina_list" else "detail_result"
+
+        pipeline = cls(output_file=output_file)
+        crawler.signals.connect(pipeline.spider_closed, signal=signals.spider_closed)
+        return pipeline
+
+
 class ChuangyeComPipeline(object):
     def __init__(self):
         self.file = codecs.open("chuangye_com", 'a', encoding='utf-8')
@@ -100,3 +127,16 @@ class TouzirenPipeline(object):
 
     def spider_closed(self, spider):
         self.file.close()
+
+class ChengyuPipeline(object):
+    def __init__(self):
+        self.file = codecs.open("chengyu", 'a', encoding='utf-8')
+
+    def process_item(self, item, spider):
+        line = item['chengyu'] + "\n"
+        self.file.write(line)
+        return item
+
+    def spider_closed(self, spider):
+        self.file.close()
+

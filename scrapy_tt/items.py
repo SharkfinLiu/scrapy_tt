@@ -52,3 +52,7 @@ class TouzirenItem(scrapy.Item):
     position = scrapy.Field()
     fie = scrapy.Field()
     company = scrapy.Field()
+
+
+class ChengyuItem(scrapy.Item):
+    chengyu = scrapy.Field()

@@ -4,7 +4,18 @@
     <bookmark url="file://$PROJECT_DIR$/scrapy_tt/spiders/findchips.py" line="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aac9dd1e-f1e2-49ec-a323-a85d85f36a48" name="Default" comment="" />
+    <list default="true" id="aac9dd1e-f1e2-49ec-a323-a85d85f36a48" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/spiders/ccccc" afterPath="$PROJECT_DIR$/scrapy_tt/spiders/ccccc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/spiders/ccccc_1" afterPath="$PROJECT_DIR$/scrapy_tt/spiders/ccccc_1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/touzijigou" afterPath="$PROJECT_DIR$/scrapy_tt/touzijigou" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/items.py" afterPath="$PROJECT_DIR$/scrapy_tt/items.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/pipelines.py" afterPath="$PROJECT_DIR$/scrapy_tt/pipelines.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/spiders/chuangye.py" afterPath="$PROJECT_DIR$/scrapy_tt/spiders/chuangye.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/spiders/text_test.py" afterPath="$PROJECT_DIR$/scrapy_tt/spiders/text_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/spiders/yule_star.py" afterPath="$PROJECT_DIR$/scrapy_tt/spiders/yule_star.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/tt.py" afterPath="$PROJECT_DIR$/scrapy_tt/tt.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,48 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_request.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/test_request.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-              <folding>
-                <element signature="e#24#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chuangye.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/chuangye.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <element signature="e#395#637#0" expanded="false" />
-                <element signature="e#2630#3938#0" expanded="false" />
-                <element signature="e#3983#5300#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/requests/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-271">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="text_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/text_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+            <state relative-caret-position="441">
+              <caret line="78" column="29" lean-forward="false" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -70,12 +44,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/twisted/internet/task.py">
+      <file leaf-file-name="yule_star.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/yule_star.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="516" column="0" lean-forward="false" selection-start-line="516" selection-start-column="0" selection-end-line="516" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="189">
+              <caret line="21978" column="25" lean-forward="true" selection-start-line="21978" selection-start-column="25" selection-end-line="21978" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#119#2311#0" expanded="false" />
+                <element signature="e#2742#43673#0" expanded="false" />
+                <element signature="e#45399#57109#0" expanded="false" />
+                <element signature="e#45783#55438#0" expanded="false" />
+                <element signature="e#57172#112870#0" expanded="false" />
+                <element signature="e#112933#172882#0" expanded="false" />
+                <element signature="e#172945#188925#0" expanded="false" />
+                <element signature="e#188988#249984#0" expanded="false" />
+                <element signature="e#250047#307502#0" expanded="false" />
+                <element signature="e#307565#370617#0" expanded="false" />
+                <element signature="e#307950#368946#0" expanded="false" />
+                <element signature="e#370680#432218#0" expanded="false" />
+                <element signature="e#370924#430704#0" expanded="false" />
+                <element signature="e#371065#430547#0" expanded="false" />
+                <element signature="e#432282#452068#0" expanded="false" />
+                <element signature="e#452116#470378#0" expanded="false" />
+                <element signature="e#452503#468681#0" expanded="false" />
+                <element signature="e#470812#487006#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,39 +77,9 @@
       <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy_tt/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+            <state relative-caret-position="232">
+              <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gupiao.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/gupiao.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="12081" column="5" lean-forward="true" selection-start-line="12076" selection-start-column="4" selection-end-line="12081" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <element signature="e#2048#31973#0" expanded="false" />
-                <element signature="e#31999#76994#0" expanded="false" />
-                <element signature="e#78867#108792#0" expanded="false" />
-                <element signature="e#108818#153813#0" expanded="false" />
-                <element signature="e#153832#174133#0" expanded="false" />
-                <element signature="e#174152#204580#0" expanded="false" />
-                <element signature="e#205600#215331#0" expanded="false" />
-                <element signature="e#206076#214421#0" expanded="false" />
-                <element signature="e#215379#255114#0" expanded="false" />
-                <element signature="e#215702#224047#0" expanded="false" />
-                <element signature="e#224074#239061#0" expanded="false" />
-                <element signature="e#239089#254355#0" expanded="false" />
-                <element signature="e#255653#259060#0" expanded="false" />
-                <element signature="e#260208#263615#0" expanded="false" />
-                <element signature="e#263642#267047#0" expanded="false" />
-                <element signature="e#267075#273123#0" expanded="false" />
-                <marker date="1509008474758" expanded="false" signature="78314:205555" ph="..." />
-                <marker date="1509008474758" expanded="false" signature="259862:273834" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -123,8 +87,8 @@
       <file leaf-file-name="tt.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy_tt/tt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="420">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#23#64#0" expanded="true" />
               </folding>
@@ -132,18 +96,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy_tt/pipelines.py">
+      <file leaf-file-name="unittest_spider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy_tt/unittest_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="21">
+              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
               <folding>
-                <element signature="e#371#697#0" expanded="false" />
-                <element signature="e#735#1051#0" expanded="false" />
-                <element signature="e#1089#1405#0" expanded="false" />
-                <element signature="e#1440#1735#0" expanded="false" />
-                <element signature="e#2176#2508#0" expanded="false" />
-                <element signature="e#2547#2885#0" expanded="false" />
+                <element signature="e#23#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,18 +119,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>MyCustomDownloaderMiddleware</find>
-      <find>114.215.150.13:3128</find>
-      <find>112.16.9.198:81</find>
-      <find>45.221.221.129:53281</find>
-      <find>SPLD - 简单可编程逻辑器件</find>
-      <find>交流电源线</find>
-      <find>馈通电容器</find>
-      <find>自恢复保险丝</find>
-      <find>温度保险丝</find>
-      <find>圆形军规连接器</find>
-      <find>交流电源插头和插座</find>
-      <find>照明连接器</find>
       <find>LED灯泡与模块</find>
       <find>断路器</find>
       <find>标准LED-SMD</find>
@@ -190,7 +137,26 @@
       <find>600777</find>
       <find>JFC</find>
       <find>JF</find>
+      <find>陈木胜</find>
+      <find>刘芳菲</find>
+      <find>小河北</find>
+      <find>杨紫怡</find>
+      <find>南拳妈妈</find>
+      <find>克</find>
+      <find>福</find>
+      <find>百脑汇</find>
+      <find>北京鸟人</find>
+      <find>鸟人</find>
+      <find>'YuleBiakeSpider_1'</find>
+      <find>f.write(item['name'])</find>
     </findStrings>
+    <replaceStrings>
+      <replace>self.name</replace>
+      <replace>f.write(item['name']+'\n')</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -217,12 +183,15 @@
         <option value="$PROJECT_DIR$/scrapy_tt/spiders/gupiao_gaoguan.py" />
         <option value="$PROJECT_DIR$/scrapy_tt/spiders/gupiao.py" />
         <option value="$PROJECT_DIR$/scrapy_tt/spiders/itjuzi.py" />
-        <option value="$PROJECT_DIR$/scrapy_tt/spiders/yule_star.py" />
-        <option value="$PROJECT_DIR$/scrapy_tt/items.py" />
-        <option value="$PROJECT_DIR$/scrapy_tt/tt.py" />
         <option value="$PROJECT_DIR$/scrapy_tt/spiders/test_request.py" />
         <option value="$PROJECT_DIR$/scrapy_tt/spiders/chuangye.py" />
+        <option value="$PROJECT_DIR$/scrapy_tt/items.py" />
+        <option value="$PROJECT_DIR$/scrapy_tt/spiders/chengyu.py" />
+        <option value="$PROJECT_DIR$/scrapy_tt/spiders/jiebacixing.py" />
         <option value="$PROJECT_DIR$/scrapy_tt/pipelines.py" />
+        <option value="$PROJECT_DIR$/scrapy_tt/tt.py" />
+        <option value="$PROJECT_DIR$/scrapy_tt/spiders/yule_star.py" />
+        <option value="$PROJECT_DIR$/scrapy_tt/unittest_spider.py" />
         <option value="$PROJECT_DIR$/scrapy_tt/spiders/text_test.py" />
       </list>
     </option>
@@ -249,7 +218,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,26 +244,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scrapy_tt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scrapy_tt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scrapy_tt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spiders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,55 +263,48 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.text_test">
-    <configuration default="false" name="tt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittest SpidersTestCase.test_YuleBiakeSpider_9" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy_tt" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scrapy_tt" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_tt/tt.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_tt/unittest_spider.py" />
+      <option name="CLASS_NAME" value="SpidersTestCase" />
+      <option name="METHOD_NAME" value="test_YuleBiakeSpider_9" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="image_recognize_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittest SpidersTestCase.test_YuleBiakeSpider_10" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy_tt/spiders" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy_tt" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scrapy_tt" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_tt/spiders/image_recognize_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="catmatch" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy_tt/spiders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="scrapy_tt" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_tt/spiders/catmatch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_tt/unittest_spider.py" />
+      <option name="CLASS_NAME" value="SpidersTestCase" />
+      <option name="METHOD_NAME" value="test_YuleBiakeSpider_10" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="text_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -380,21 +324,48 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="itjuzi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittest SpidersTestCase.test_YuleBiakeSpider_11" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy_tt/spiders" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy_tt" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scrapy_tt" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_tt/spiders/itjuzi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_tt/unittest_spider.py" />
+      <option name="CLASS_NAME" value="SpidersTestCase" />
+      <option name="METHOD_NAME" value="test_YuleBiakeSpider_11" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest SpidersTestCase.test_YuleBiakeSpider_12" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy_tt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="scrapy_tt" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_tt/unittest_spider.py" />
+      <option name="CLASS_NAME" value="SpidersTestCase" />
+      <option name="METHOD_NAME" value="test_YuleBiakeSpider_12" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -532,19 +503,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tt" />
-      <item index="1" class="java.lang.String" itemvalue="Python.image_recognize_test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.catmatch" />
-      <item index="3" class="java.lang.String" itemvalue="Python.text_test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.itjuzi" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_YuleBiakeSpider_9" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_YuleBiakeSpider_10" />
+      <item index="2" class="java.lang.String" itemvalue="Python.text_test" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_YuleBiakeSpider_11" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_YuleBiakeSpider_12" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.text_test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tt" />
-        <item index="2" class="java.lang.String" itemvalue="Python.itjuzi" />
-        <item index="3" class="java.lang.String" itemvalue="Python.catmatch" />
-        <item index="4" class="java.lang.String" itemvalue="Python.image_recognize_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_YuleBiakeSpider_12" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_YuleBiakeSpider_11" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_YuleBiakeSpider_10" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_YuleBiakeSpider_9" />
       </list>
     </recent_temporary>
   </component>
@@ -562,35 +533,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_spider - 2017.08.17 at 17h 10m 01s.xml">
-      <configuration name="Unittests in test_spider" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_10 - 2017.11.06 at 14h 22m 01s.xml">
+      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_10" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_spider - 2017.08.17 at 17h 11m 24s.xml">
-      <configuration name="Unittests in test_spider" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_11 - 2017.11.07 at 10h 43m 45s.xml">
+      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_11" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_spider - 2017.08.17 at 17h 16m 23s.xml">
-      <configuration name="Unittests in test_spider" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_11 - 2017.11.07 at 10h 59m 07s.xml">
+      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_11" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_spider - 2017.08.17 at 17h 16m 54s.xml">
-      <configuration name="Unittests in test_spider" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_12 - 2017.11.07 at 11h 03m 13s.xml">
+      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_12" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_spider - 2017.08.17 at 17h 17m 10s.xml">
-      <configuration name="Unittests in test_spider" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_3 - 2017.11.06 at 14h 19m 12s.xml">
+      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_3" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_spider - 2017.08.17 at 17h 17m 16s.xml">
-      <configuration name="Unittests in test_spider" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_4 - 2017.11.06 at 14h 19m 35s.xml">
+      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_4" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_spider - 2017.08.17 at 17h 17m 54s.xml">
-      <configuration name="Unittests in test_spider" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_5 - 2017.11.06 at 14h 19m 52s.xml">
+      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_5" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_spider - 2017.08.17 at 18h 34m 22s.xml">
-      <configuration name="Unittests in test_spider" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_6 - 2017.11.06 at 14h 20m 35s.xml">
+      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_6" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_spider - 2017.08.17 at 18h 35m 30s.xml">
-      <configuration name="Unittests in test_spider" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_7 - 2017.11.06 at 14h 19m 57s.xml">
+      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_7" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_spider - 2017.08.17 at 18h 36m 39s.xml">
-      <configuration name="Unittests in test_spider" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_9 - 2017.11.06 at 14h 21m 32s.xml">
+      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_9" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -606,16 +577,16 @@
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14013086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27232635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3128898" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3194589" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2765073" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25363827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -631,17 +602,17 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22162741" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29313928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14013086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27232635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18607068" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25363827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -767,7 +738,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/scrapy_tt/spiders/yule_star.py</url>
-          <line>55</line>
+          <line>46</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -796,87 +767,29 @@
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/text_test.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="83" />
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/chuangye.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/chengyu.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/yule_star.py</url>
+          <line>1552</line>
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="84" />
+      <option name="time" value="99" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/another_test.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/scrapy/utils/misc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/proxy_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="73" column="57" lean-forward="false" selection-start-line="72" selection-start-column="8" selection-end-line="73" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-            <element signature="e#289#337#0" expanded="false" />
-            <element signature="e#2392#2419#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/Chinese_re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_tt/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="63" column="60" lean-forward="false" selection-start-line="63" selection-start-column="60" selection-end-line="63" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.5/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="311" column="0" lean-forward="false" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/test_scrapyrt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/spider_baike.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#37#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/testspider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#37#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/huanqiu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -956,7 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -964,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,19 +902,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/scrapy/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,15 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="1242" column="0" lean-forward="false" selection-start-line="1242" selection-start-column="0" selection-end-line="1242" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/twisted/internet/defer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="652" column="0" lean-forward="false" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,7 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,7 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-194">
           <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,7 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="587">
           <caret line="618" column="0" lean-forward="false" selection-start-line="618" selection-start-column="0" selection-end-line="618" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,7 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,16 +949,6 @@
         <state relative-caret-position="251">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/yule_star.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,7 +965,7 @@
         <state relative-caret-position="420">
           <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
             <element signature="e#105#147#0" expanded="false" />
           </folding>
         </state>
@@ -1097,20 +976,90 @@
         <state relative-caret-position="315">
           <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="54" />
           <folding>
-            <element signature="e#24#37#0" expanded="true" />
+            <element signature="e#24#37#0" expanded="false" />
             <element signature="e#777#1361#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-271">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/scrapy/http/response/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/scrapy/http/response/html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/test_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#24#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/chuangye.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+            <element signature="e#152#2584#0" expanded="false" />
+            <element signature="e#395#637#0" expanded="false" />
+            <element signature="e#3977#5294#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/scrapy/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/chengyu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/gupiao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="12081" column="5" lean-forward="true" selection-start-line="12076" selection-start-column="4" selection-end-line="12081" selection-end-column="5" />
+        <state relative-caret-position="304">
+          <caret line="12292" column="77" lean-forward="true" selection-start-line="12292" selection-start-column="13" selection-end-line="12292" selection-end-column="77" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
             <element signature="e#2048#31973#0" expanded="false" />
             <element signature="e#31999#76994#0" expanded="false" />
+            <element signature="e#78319#205555#0" expanded="false" />
             <element signature="e#78867#108792#0" expanded="false" />
             <element signature="e#108818#153813#0" expanded="false" />
             <element signature="e#153832#174133#0" expanded="false" />
@@ -1121,108 +1070,155 @@
             <element signature="e#215702#224047#0" expanded="false" />
             <element signature="e#224074#239061#0" expanded="false" />
             <element signature="e#239089#254355#0" expanded="false" />
+            <element signature="e#255159#259819#0" expanded="false" />
             <element signature="e#255653#259060#0" expanded="false" />
             <element signature="e#260208#263615#0" expanded="false" />
             <element signature="e#263642#267047#0" expanded="false" />
             <element signature="e#267075#273123#0" expanded="false" />
-            <marker date="1509008474758" expanded="false" signature="78314:205555" ph="..." />
-            <marker date="1509008474758" expanded="false" signature="259862:273834" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/twisted/internet/defer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13398">
+          <caret line="652" column="0" lean-forward="false" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/jiebacixing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10983">
+          <caret line="523" column="32" lean-forward="false" selection-start-line="523" selection-start-column="32" selection-end-line="523" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-1247971764/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53319">
+          <caret line="2539" column="8" lean-forward="false" selection-start-line="2539" selection-start-column="8" selection-end-line="2539" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="71" column="67" lean-forward="true" selection-start-line="71" selection-start-column="67" selection-end-line="71" selection-end-column="67" />
+          <folding>
+            <element signature="e#192#203#0" expanded="false" />
+            <element signature="e#399#725#0" expanded="false" />
+            <element signature="e#763#1079#0" expanded="false" />
+            <element signature="e#1117#1433#0" expanded="false" />
+            <element signature="e#2544#2902#0" expanded="false" />
+            <element signature="e#2943#3275#0" expanded="false" />
+            <element signature="e#3314#3652#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/twisted/internet/task.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="516" column="0" lean-forward="false" selection-start-line="516" selection-start-column="0" selection-end-line="516" selection-end-column="0" />
+        <state relative-caret-position="14091">
+          <caret line="671" column="0" lean-forward="false" selection-start-line="671" selection-start-column="0" selection-end-line="671" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/YuleBiakeSpider_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/YuleBiakeSpider_2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy_tt/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        <state relative-caret-position="232">
+          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/requests/__init__.py">
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/YuleBiakeSpider_7">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-271">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/YuleBiakeSpider_8">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38758">
+          <caret line="196" column="1" lean-forward="true" selection-start-line="196" selection-start-column="1" selection-end-line="196" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy_tt/tt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="420">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#23#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/scrapy/http/response/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/scrapy/http/response/html.py">
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/yule_star.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/test_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/chuangye.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <caret line="21978" column="25" lean-forward="true" selection-start-line="21978" selection-start-column="25" selection-end-line="21978" selection-end-column="25" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#395#637#0" expanded="false" />
-            <element signature="e#2630#3938#0" expanded="false" />
-            <element signature="e#3983#5300#0" expanded="false" />
+            <element signature="e#119#2311#0" expanded="false" />
+            <element signature="e#2742#43673#0" expanded="false" />
+            <element signature="e#45399#57109#0" expanded="false" />
+            <element signature="e#45783#55438#0" expanded="false" />
+            <element signature="e#57172#112870#0" expanded="false" />
+            <element signature="e#112933#172882#0" expanded="false" />
+            <element signature="e#172945#188925#0" expanded="false" />
+            <element signature="e#188988#249984#0" expanded="false" />
+            <element signature="e#250047#307502#0" expanded="false" />
+            <element signature="e#307565#370617#0" expanded="false" />
+            <element signature="e#307950#368946#0" expanded="false" />
+            <element signature="e#370680#432218#0" expanded="false" />
+            <element signature="e#370924#430704#0" expanded="false" />
+            <element signature="e#371065#430547#0" expanded="false" />
+            <element signature="e#432282#452068#0" expanded="false" />
+            <element signature="e#452116#470378#0" expanded="false" />
+            <element signature="e#452503#468681#0" expanded="false" />
+            <element signature="e#470812#487006#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_tt/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/unittest_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="21">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
           <folding>
-            <element signature="e#371#697#0" expanded="false" />
-            <element signature="e#735#1051#0" expanded="false" />
-            <element signature="e#1089#1405#0" expanded="false" />
-            <element signature="e#1440#1735#0" expanded="false" />
-            <element signature="e#2176#2508#0" expanded="false" />
-            <element signature="e#2547#2885#0" expanded="false" />
+            <element signature="e#23#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/text_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        <state relative-caret-position="441">
+          <caret line="78" column="29" lean-forward="false" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

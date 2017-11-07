@@ -16,6 +16,7 @@ from scrapy_tt.spiders.gupiao import *
 from scrapy_tt.spiders.itjuzi import *
 from scrapy_tt.spiders.yule_star import *
 from scrapy_tt.spiders.chuangye import *
+from scrapy_tt.spiders.chengyu import *
 
 
 p = CrawlerProcess({
@@ -24,5 +25,5 @@ p = CrawlerProcess({
 #     'scrapy_tt.middlewares.ProxyMiddleware': 100,
 # }
 })
-p.crawl(ChuangyeComSpider)
+p.crawl(YuleBiakeSpider_1)
 p.start()
