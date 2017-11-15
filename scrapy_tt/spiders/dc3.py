@@ -1,4 +1,7 @@
 # -*- coding:utf-8 -*-
+"""
+dc3求后缀数组
+"""
 # src_list = ['m','i','s','s','i','s','s','i','p','p','i','#']
 
 
@@ -46,6 +49,7 @@ def dc3(in_list,src_list,point_orig):  # lcy:修改，加了src_list，point_ori
         # 因为既然有重复的 rank, 说明 3 个 char 不足以决出胜负
         # 那就再引入 3 个 char, 正好是一个循环
         # So, [b1_0, b2_0, b1_1, b2_1, ...] => [b1_0, b1_1, ..., b2_0, b2_1, ...]
+        # lcy: 在上一步排序改变了原来字符或串的下标，在递归时会影响后面合并排序，所以需要赋回原来的顺序
         b1_b2_list[:] = [*(obj for i, obj in enumerate(b1_b2_orig) if i % 2 == 0),
                          *(obj for i, obj in enumerate(b1_b2_orig) if i % 2 == 1)]
 
@@ -75,7 +79,7 @@ def dc3(in_list,src_list,point_orig):  # lcy:修改，加了src_list，point_ori
 
     # b_0 和 b1_b2 都排序好了, 开始合并
     out_list = []
-    while True:  # lcy:将idx改成rel_idx，因为递归时使用最原始的字符串下标会出错，然后在最后返回时，重新将rel_idx=idx
+    while True:  # lcy:将idx改成rel_idx，因为递归时使用最原始的字符串下标会出错
         b_0_head = b_0_list[0]
         b_12_head = b1_b2_list[0]
 
