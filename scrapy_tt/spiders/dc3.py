@@ -2,8 +2,6 @@
 """
 dc3求后缀数组
 """
-# src_list = ['m','i','s','s','i','s','s','i','p','p','i','#']
-
 
 class Point:
     def __init__(self, idx, val):
@@ -15,10 +13,7 @@ class Point:
         return 'idx:{}, val:"{}", rel_idx:{}'.format(self.idx, self.val, self.rel_idx)
 
 
-
-
-
-def dc3(in_list,src_list,point_orig):  # lcy:修改，加了src_list，point_orig，因为在递归时使用全局会影响结果
+def dc3(in_list, src_list, point_orig):  # lcy:修改，加了src_list，point_orig，因为在递归时使用全局会影响结果
     b1_b2_list = []
     for i, point in enumerate(in_list):
         if point.val != "" and i % 3 in (1, 2):
@@ -60,7 +55,7 @@ def dc3(in_list,src_list,point_orig):  # lcy:修改，加了src_list，point_ori
         for point in b1_b2_list:  # lcy: 重设src-list 用于递归
             src_list_branch.append(str(point.val))
         point_orig_branch = b1_b2_list[:]
-        b1_b2_list = dc3(b1_b2_list,src_list_branch,point_orig_branch)  # lcy:递归，添加src-list_branch
+        b1_b2_list = dc3(b1_b2_list, src_list_branch, point_orig_branch)  # lcy:递归，添加src-list_branch
 
     # 这里 b1_b2 就已经排序完了, 并且有了独特的 val
     # 利用 b1_b2 的 val 可以排序 b_0
@@ -137,17 +132,19 @@ def dc3(in_list,src_list,point_orig):  # lcy:修改，加了src_list，point_ori
     return in_list
 
 
-# if __name__ == '__main__':
-#     scr_list = 'aabaabdbbb|'
-#     src_list = list(scr_list)
-#     # 尾部填充补位的 0
-#     for _ in range(2):
-#         src_list.append('')
-#     point_list = []
-#     for i, val in enumerate(src_list):
-#         point_list.append(Point(i, val))
-#     # 后面会修改 point_list, 需要一个拷贝来查找相邻 b_1/b_2
-#     point_orig = point_list[:]
-#     result = dc3(point_list,src_list,point_orig)
-#     for i in result:
-#         print(i.idx)
+def dc3_input(src_list):
+    result_list = []
+    # 尾部填充补位
+    for _ in range(2):
+        src_list.append('')
+    point_list = []
+    for i, val in enumerate(src_list):
+        point_list.append(Point(i, val))
+    # 后面会修改 point_list, 需要一个拷贝来查找相邻 b_1/b_2
+    point_orig = point_list[:]
+    result = dc3(point_list, src_list, point_orig)
+    for i in result:
+        result_list.append(i.idx)
+        # print(i.idx)
+    return result_list
+
