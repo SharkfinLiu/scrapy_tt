@@ -31,13 +31,13 @@ def dc3(in_list, src_list, point_orig):  # lcy:修改，加了src_list，point_o
         if prev_val is None:
             curr_rank += 1
             prev_val = point.val
-            point.val = str(curr_rank)
+            # point.val = str(curr_rank)
             continue
 
         if point.val != prev_val:
             curr_rank += 1
             prev_val = point.val
-        point.val = str(curr_rank)
+        # point.val = str(curr_rank)
 
     if curr_rank != len(b1_b2_list):  # 表明有重复 rank, 即排序未完成, 递归 dc3
         # 这里调整下 b1_b2 的顺序, 不再按照 in_list 排列
@@ -53,7 +53,7 @@ def dc3(in_list, src_list, point_orig):  # lcy:修改，加了src_list，point_o
             b1_b2_list.append(Point(-1, ''))
         src_list_branch = []
         for point in b1_b2_list:  # lcy: 重设src-list 用于递归
-            src_list_branch.append(str(point.val))
+            src_list_branch.append(point.val)
         point_orig_branch = b1_b2_list[:]
         b1_b2_list = dc3(b1_b2_list, src_list_branch, point_orig_branch)  # lcy:递归，添加src-list_branch
 
@@ -94,10 +94,21 @@ def dc3(in_list, src_list, point_orig):  # lcy:修改，加了src_list，point_o
             # 以上两种为能直接决出胜负的情况
 
             else:  # 如不能, 一定可以用 b_0 之后的 b_1 和 b_1 之后的 b_2 决出胜负
-                if point_orig[b_0_head.rel_idx + 1].val > point_orig[b_12_head.rel_idx + 1].val:
-                    b_0_win()
+                # if point_orig[b_0_head.rel_idx + 1].val > point_orig[b_12_head.rel_idx + 1].val:
+                #     b_0_win()
+                # else:
+                #     b_12_win()
+                # lcy:用isinstance来判断是因为在%3！=0这部分出现重复的需要递归调用，而函数后面的合并会讲val的值用数字表示，会出现'9'>'11'情况，所以要将其int()
+                if isinstance(point_orig[b_0_head.rel_idx + 1].val,tuple):
+                    if point_orig[b_0_head.rel_idx + 1].val > point_orig[b_12_head.rel_idx + 1].val:
+                        b_0_win()
+                    else:
+                        b_12_win()
                 else:
-                    b_12_win()
+                    if int(point_orig[b_0_head.rel_idx + 1].val) > int(point_orig[b_12_head.rel_idx + 1].val):
+                        b_0_win()
+                    else:
+                        b_12_win()
 
         else:  # b_0 vs b_2 原理相仿
             if src_list[b_0_head.rel_idx] > src_list[b_12_head.rel_idx]:
@@ -112,10 +123,20 @@ def dc3(in_list, src_list, point_orig):  # lcy:修改，加了src_list，point_o
                     b_12_win()
 
                 else:
-                    if point_orig[b_0_head.rel_idx + 2].val > point_orig[b_12_head.rel_idx + 2].val:
-                        b_0_win()
+                    # if point_orig[b_0_head.rel_idx + 2].val > point_orig[b_12_head.rel_idx + 2].val:
+                    #     b_0_win()
+                    # else:
+                    #     b_12_win()
+                    if isinstance(point_orig[b_0_head.rel_idx + 2].val,tuple):
+                        if point_orig[b_0_head.rel_idx + 2].val > point_orig[b_12_head.rel_idx + 2].val:
+                            b_0_win()
+                        else:
+                            b_12_win()
                     else:
-                        b_12_win()
+                        if int(point_orig[b_0_head.rel_idx + 2].val) > int(point_orig[b_12_head.rel_idx + 2].val):
+                            b_0_win()
+                        else:
+                            b_12_win()
 
         # 判断是否终结
         if not b_0_list:
