@@ -3,6 +3,7 @@
 dc3求后缀数组
 """
 
+
 class Point:
     def __init__(self, idx, val):
         self.idx = idx  # 全局变量 src_list 中的 index
@@ -13,56 +14,15 @@ class Point:
         return 'idx:{}, val:"{}", rel_idx:{}'.format(self.idx, self.val, self.rel_idx)
 
 
-def dc3(in_list, src_list, point_orig,list_len):  # lcy:修改，加了src_list，point_orig，因为在递归时使用全局会影响结果
+def dc3(in_list, src_list, point_orig, list_len):  # lcy:修改，加了src_list，point_orig，因为在递归时使用全局会影响结果
     b1_b2_list = []
     for i, point in enumerate(in_list):
         if point.val != src_list[-1] and i % 3 in (1, 2):
             b1_b2_list.append(point)
-            point.val = point.val+in_list[i + 1].val+in_list[i + 2].val
-    b1_b2_orig = b1_b2_list[:]  # 保留原来的
-    b1_b2_list.sort(key=lambda point: point.val)  # 自行替换成 Radix Sort
-
-    # 我们根本不在乎每个 point 的 val(rank) 多大, 只要保持顺序即可. 在这里重写 val
-    # 严重注意! 需要判断前后 val 是否相等. 是的话, 虽然顺序不同, 但 val 应该是一样的
-    # 这步意义是将 3 个 char 的大小浓缩成一个 val, 提供给 b_0(高位组) 使用
-    curr_rank = 0
-    prev_val = None
-    for point in b1_b2_list:
-        if prev_val is None:
-            curr_rank = int(curr_rank) + 1
-            prev_val = point.val
-            # point.val = str(curr_rank)
-            for _ in range(len(point.val)-1):
-                curr_rank = '0' + str(curr_rank)
-            point.val = str(curr_rank)
-            continue
-
-        if point.val != prev_val:
-            curr_rank = int(curr_rank) + 1
-            prev_val = point.val
-            for _ in range(len(point.val)-1):
-                curr_rank = '0' + str(curr_rank)
-        point.val = str(curr_rank)
-        # point.val = str(curr_rank)
-
-    if curr_rank != len(b1_b2_list):  # 表明有重复 rank, 即排序未完成, 递归 dc3
-        # 这里调整下 b1_b2 的顺序, 不再按照 in_list 排列
-        # 因为既然有重复的 rank, 说明 3 个 char 不足以决出胜负
-        # 那就再引入 3 个 char, 正好是一个循环
-        # So, [b1_0, b2_0, b1_1, b2_1, ...] => [b1_0, b1_1, ..., b2_0, b2_1, ...]
-        # lcy: 在上一步排序改变了原来字符或串的下标，在递归时会影响后面合并排序，所以需要赋回原来的顺序
-        b1_b2_list = b1_b2_list = b1_b2_orig[:]
-        blank = ''
-        for _ in range(len(b1_b2_list[0].val)):
-            blank = '0' + blank
-        for _ in range(2):
-            # 这里 idx 可以设置为任意值, 其只是起到 padding 的作用
-            b1_b2_list.append(Point(-1, blank))
-        src_list_branch = []
-        for point in b1_b2_list:  # lcy: 重设src-list 用于递归
-            src_list_branch.append(point.val)
-        point_orig_branch = b1_b2_list[:]
-        b1_b2_list = dc3(b1_b2_list, src_list_branch, point_orig_branch,list_len)  # lcy:递归，添加src-list_branch
+            point.val = (point.val, in_list[i + 1].val, in_list[i + 2].val)
+    # %3!=0的部分排序
+    first_sort(b1_b2_list, list_len)
+    b1_b2_list.sort(key=lambda point: point.val)
 
     # 这里 b1_b2 就已经排序完了, 并且有了独特的 val
     # 利用 b1_b2 的 val 可以排序 b_0
@@ -71,7 +31,7 @@ def dc3(in_list, src_list, point_orig,list_len):  # lcy:修改，加了src_list�
         if point.val != src_list[-1] and i % 3 == 0:
             b_0_list.append(point)
             # 必然会成功排序 b_0, 因为 b_1 的 val 是有序且独特的
-            point.val = point.val+in_list[i + 1].val
+            point.val = (point.val, in_list[i + 1].val)
     b_0_list.sort(key=lambda point: point.val)
 
     # <-- 写一遍相对 idx, 仅用于 Debug
@@ -136,16 +96,60 @@ def dc3(in_list, src_list, point_orig,list_len):  # lcy:修改，加了src_list�
                 break
 
     in_list[:] = out_list
-    # 同样, 排序之后, 重写 val
-    for i in range(len(in_list)):
-        for _ in range(len(src_list[-1])-1):
-            i = '0' + str(i)
-        in_list[int(i)].val = str(i)
     return in_list
 
 
+def first_sort(b1_b2_list, list_len):
+    ## 第一部分进行排序
+    b1_b2_orig = b1_b2_list[:]  # 保留原来的
+    b1_b2_list.sort(key=lambda point: point.val)  # 自行替换成 Radix Sort
 
-def dc3_input(src_list):
+    # 我们根本不在乎每个 point 的 val(rank) 多大, 只要保持顺序即可. 在这里重写 val
+    # 严重注意! 需要判断前后 val 是否相等. 是的话, 虽然顺序不同, 但 val 应该是一样的
+    # 这步意义是将 3 个 char 的大小浓缩成一个 val, 提供给 b_0(高位组) 使用
+    curr_rank = 0
+    prev_val = None
+    for point in b1_b2_list:
+        if prev_val is None:
+            curr_rank = int(curr_rank) + 1
+            prev_val = point.val
+            # point.val = str(curr_rank)
+            # for _ in range(list_len - len(str(curr_rank))):
+                # curr_rank = '0' + str(curr_rank)
+            # point.val = str(curr_rank)
+            continue
+
+        if point.val != prev_val:
+            curr_rank = int(curr_rank) + 1
+            prev_val = point.val
+            # for _ in range(list_len - len(str(curr_rank))):
+            #     curr_rank = '0' + str(curr_rank)
+        # point.val = str(curr_rank)
+        # point.val = str(curr_rank)
+
+    if curr_rank != len(b1_b2_list):  # 表明有重复 rank, 即排序未完成, 递归 dc3
+        # 这里调整下 b1_b2 的顺序, 不再按照 in_list 排列
+        # 因为既然有重复的 rank, 说明 3 个 char 不足以决出胜负
+        # 那就再引入 3 个 char, 正好是一个循环
+        # So, [b1_0, b2_0, b1_1, b2_1, ...] => [b1_0, b1_1, ..., b2_0, b2_1, ...]
+        # lcy: 在上一步排序改变了原来字符或串的下标，在递归时会影响后面合并排序，所以需要赋回原来的顺序
+        b1_b2_list = b1_b2_orig[:]
+        blank = ''
+        for _ in range(list_len):
+            blank = '0' + blank
+        for _ in range(2):
+            # 这里 idx 可以设置为任意值, 其只是起到 padding 的作用
+            b1_b2_list.append(Point(-1, blank))
+        b1_b2_len = len(b1_b2_list)
+        b1_b2_list_new = []
+        for i, point in enumerate(b1_b2_list):
+            if i < b1_b2_len - 2:
+                b1_b2_list_new.append(point)
+                point.val = (point.val, b1_b2_list[i + 1].val, b1_b2_list[i + 2].val)
+        first_sort(b1_b2_list_new, list_len)
+
+
+def dc3_for_input(src_list):
     list_len = len(str(len(src_list)))
     result_list = []
     # 尾部填充补位
@@ -156,40 +160,11 @@ def dc3_input(src_list):
         point_list.append(Point(i, val))
         # 后面会修改 point_list, 需要一个拷贝来查找相邻 b_1/b_2
     point_orig = point_list[:]
-    point_list.sort(key=lambda point: point.val)  # 自行替换成 Radix Sort
-
-    # 我们根本不在乎每个 point 的 val(rank) 多大, 只要保持顺序即可. 在这里重写 val
-    # 严重注意! 需要判断前后 val 是否相等. 是的话, 虽然顺序不同, 但 val 应该是一样的
-    # 这步意义是将 3 个 char 的大小浓缩成一个 val, 提供给 b_0(高位组) 使用
-    curr_rank = 0
-    prev_val = None
-    for point in point_list:
-        if prev_val is None:
-            curr_rank = int(curr_rank) + 1
-            prev_val = point.val
-            # point.val = str(curr_rank)
-            for _ in range(list_len - len(str(curr_rank))):
-                curr_rank = '0' + str(curr_rank)
-            point.val = str(curr_rank)
-            continue
-
-        if point.val != prev_val:
-            curr_rank = int(curr_rank) + 1
-            prev_val = point.val
-            for _ in range(list_len - len(str(curr_rank))):
-                curr_rank = '0' + str(curr_rank)
-        point.val = str(curr_rank)
-            # point.val = str(curr_rank)
-
-
-    # 后面会修改 point_list, 需要一个拷贝来查找相邻 b_1/b_2
-    point_list = point_orig[:]
     src_list = []
     for point in point_list:  # lcy: 重设src-list 用于递归
         src_list.append(point.val)
-    result = dc3(point_list, src_list, point_orig,list_len)
+    result = dc3(point_list, src_list, point_orig, list_len)
     for i in result:
         result_list.append(i.idx)
         # print(i.idx)
     return result_list
-

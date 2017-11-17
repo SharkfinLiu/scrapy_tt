@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aac9dd1e-f1e2-49ec-a323-a85d85f36a48" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/spiders/ccccc" afterPath="$PROJECT_DIR$/scrapy_tt/spiders/ccccc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/spiders/ccccc_1" afterPath="$PROJECT_DIR$/scrapy_tt/spiders/ccccc_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/touzijigou" afterPath="$PROJECT_DIR$/scrapy_tt/touzijigou" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scrapy_tt/spiders/dc3_digui.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scrapy_tt/spiders/dc3_for.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/items.py" afterPath="$PROJECT_DIR$/scrapy_tt/items.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/pipelines.py" afterPath="$PROJECT_DIR$/scrapy_tt/pipelines.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/spiders/chuangye.py" afterPath="$PROJECT_DIR$/scrapy_tt/spiders/chuangye.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/spiders/text_test.py" afterPath="$PROJECT_DIR$/scrapy_tt/spiders/text_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/spiders/yule_star.py" afterPath="$PROJECT_DIR$/scrapy_tt/spiders/yule_star.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/tt.py" afterPath="$PROJECT_DIR$/scrapy_tt/tt.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/spiders/dc3.py" afterPath="$PROJECT_DIR$/scrapy_tt/spiders/dc3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scrapy_tt/unittest_spider.py" afterPath="$PROJECT_DIR$/scrapy_tt/unittest_spider.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="text_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="text_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/text_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="78" column="29" lean-forward="false" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+            <state relative-caret-position="345">
+              <caret line="69" column="14" lean-forward="false" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -44,11 +39,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="DC3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/DC3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1819">
+              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dc3_c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="890">
+              <caret line="56" column="58" lean-forward="false" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dc3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="162" column="51" lean-forward="true" selection-start-line="162" selection-start-column="51" selection-end-line="162" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="yule_star.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/yule_star.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="21978" column="25" lean-forward="true" selection-start-line="21978" selection-start-column="25" selection-end-line="21978" selection-end-column="25" />
+            <state relative-caret-position="1911">
+              <caret line="21978" column="25" lean-forward="false" selection-start-line="21978" selection-start-column="25" selection-end-line="21978" selection-end-column="25" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <element signature="e#119#2311#0" expanded="false" />
@@ -74,21 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy_tt/items.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tt.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy_tt/tt.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#23#64#0" expanded="true" />
               </folding>
@@ -96,14 +111,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="unittest_spider.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="unittest_spider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scrapy_tt/unittest_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="318">
+              <caret line="83" column="33" lean-forward="true" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
               <folding>
                 <element signature="e#23#38#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="case.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.5/unittest/case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="608" column="0" lean-forward="false" selection-start-line="608" selection-start-column="0" selection-end-line="608" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dc3_for.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_for.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="136" column="17" lean-forward="false" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+              <folding>
+                <element signature="e#59#332#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dc3_digui.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_digui.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,10 +166,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>LED灯泡与模块</find>
-      <find>断路器</find>
-      <find>标准LED-SMD</find>
-      <find>工业继电器</find>
       <find>LED 照明开发工具</find>
       <find>安全继电器</find>
       <find>限位开关</find>
@@ -149,6 +192,10 @@
       <find>鸟人</find>
       <find>'YuleBiakeSpider_1'</find>
       <find>f.write(item['name'])</find>
+      <find>curr_rank</find>
+      <find>val</find>
+      <find>point.val</find>
+      <find>Point</find>
     </findStrings>
     <replaceStrings>
       <replace>self.name</replace>
@@ -191,16 +238,19 @@
         <option value="$PROJECT_DIR$/scrapy_tt/pipelines.py" />
         <option value="$PROJECT_DIR$/scrapy_tt/tt.py" />
         <option value="$PROJECT_DIR$/scrapy_tt/spiders/yule_star.py" />
-        <option value="$PROJECT_DIR$/scrapy_tt/unittest_spider.py" />
         <option value="$PROJECT_DIR$/scrapy_tt/spiders/text_test.py" />
+        <option value="$PROJECT_DIR$/scrapy_tt/spiders/dc3.py" />
+        <option value="$PROJECT_DIR$/scrapy_tt/spiders/dc3_digui.py" />
+        <option value="$PROJECT_DIR$/scrapy_tt/unittest_spider.py" />
+        <option value="$PROJECT_DIR$/scrapy_tt/spiders/dc3_for.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="x" value="951" />
+    <option name="y" value="303" />
+    <option name="width" value="1845" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -217,7 +267,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,9 +294,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scrapy_tt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scrapy_tt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scrapy_tt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,8 +330,8 @@
       <recent name="$PROJECT_DIR$/scrapy_tt" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.text_test">
-    <configuration default="false" name="Unittest SpidersTestCase.test_YuleBiakeSpider_9" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittest SpidersTestCase.test_dc3_for">
+    <configuration default="false" name="Unittest SpidersTestCase.test_dc3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -275,7 +343,7 @@
       <module name="scrapy_tt" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_tt/unittest_spider.py" />
       <option name="CLASS_NAME" value="SpidersTestCase" />
-      <option name="METHOD_NAME" value="test_YuleBiakeSpider_9" />
+      <option name="METHOD_NAME" value="test_dc3" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -285,29 +353,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest SpidersTestCase.test_YuleBiakeSpider_10" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy_tt" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="scrapy_tt" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_tt/unittest_spider.py" />
-      <option name="CLASS_NAME" value="SpidersTestCase" />
-      <option name="METHOD_NAME" value="test_YuleBiakeSpider_10" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="text_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="DC3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -319,12 +365,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scrapy_tt" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_tt/spiders/text_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_tt/spiders/DC3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest SpidersTestCase.test_YuleBiakeSpider_11" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest SpidersTestCase.test_dc3_for" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -336,7 +382,7 @@
       <module name="scrapy_tt" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_tt/unittest_spider.py" />
       <option name="CLASS_NAME" value="SpidersTestCase" />
-      <option name="METHOD_NAME" value="test_YuleBiakeSpider_11" />
+      <option name="METHOD_NAME" value="test_dc3_for" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -346,7 +392,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest SpidersTestCase.test_YuleBiakeSpider_12" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest SpidersTestCase.test_q" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -358,7 +404,29 @@
       <module name="scrapy_tt" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_tt/unittest_spider.py" />
       <option name="CLASS_NAME" value="SpidersTestCase" />
-      <option name="METHOD_NAME" value="test_YuleBiakeSpider_12" />
+      <option name="METHOD_NAME" value="test_q" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest SpidersTestCase.test_dc3_digui" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy_tt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="scrapy_tt" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_tt/unittest_spider.py" />
+      <option name="CLASS_NAME" value="SpidersTestCase" />
+      <option name="METHOD_NAME" value="test_dc3_digui" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -503,19 +571,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_YuleBiakeSpider_9" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_YuleBiakeSpider_10" />
-      <item index="2" class="java.lang.String" itemvalue="Python.text_test" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_YuleBiakeSpider_11" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_YuleBiakeSpider_12" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_dc3" />
+      <item index="1" class="java.lang.String" itemvalue="Python.DC3" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_dc3_for" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_q" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_dc3_digui" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.text_test" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_YuleBiakeSpider_12" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_YuleBiakeSpider_11" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_YuleBiakeSpider_10" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_YuleBiakeSpider_9" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_dc3_for" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_dc3_digui" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_q" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest SpidersTestCase.test_dc3" />
+        <item index="4" class="java.lang.String" itemvalue="Python.DC3" />
       </list>
     </recent_temporary>
   </component>
@@ -533,35 +601,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_10 - 2017.11.06 at 14h 22m 01s.xml">
-      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_10" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_dc3_digui - 2017.11.17 at 17h 57m 12s.xml">
+      <configuration name="Unittest SpidersTestCase.test_dc3_digui" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_11 - 2017.11.07 at 10h 43m 45s.xml">
-      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_11" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_dc3_digui - 2017.11.17 at 18h 05m 01s.xml">
+      <configuration name="Unittest SpidersTestCase.test_dc3_digui" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_11 - 2017.11.07 at 10h 59m 07s.xml">
-      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_11" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_dc3_for - 2017.11.17 at 17h 45m 54s.xml">
+      <configuration name="Unittest SpidersTestCase.test_dc3_for" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_12 - 2017.11.07 at 11h 03m 13s.xml">
-      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_12" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_dc3_for - 2017.11.17 at 18h 13m 50s.xml">
+      <configuration name="Unittest SpidersTestCase.test_dc3_for" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_3 - 2017.11.06 at 14h 19m 12s.xml">
-      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_3" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_dc3_for - 2017.11.17 at 18h 14m 56s.xml">
+      <configuration name="Unittest SpidersTestCase.test_dc3_for" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_4 - 2017.11.06 at 14h 19m 35s.xml">
-      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_4" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_dc3_for - 2017.11.17 at 18h 15m 57s.xml">
+      <configuration name="Unittest SpidersTestCase.test_dc3_for" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_5 - 2017.11.06 at 14h 19m 52s.xml">
-      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_5" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_dc3_for - 2017.11.17 at 18h 16m 32s.xml">
+      <configuration name="Unittest SpidersTestCase.test_dc3_for" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_6 - 2017.11.06 at 14h 20m 35s.xml">
-      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_6" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_q - 2017.11.17 at 17h 44m 19s.xml">
+      <configuration name="Unittest SpidersTestCase.test_q" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_7 - 2017.11.06 at 14h 19m 57s.xml">
-      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_7" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_q - 2017.11.17 at 17h 44m 31s.xml">
+      <configuration name="Unittest SpidersTestCase.test_q" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_SpidersTestCase_test_YuleBiakeSpider_9 - 2017.11.06 at 14h 21m 32s.xml">
-      <configuration name="Unittest SpidersTestCase.test_YuleBiakeSpider_9" configurationId="tests" />
+    <history-entry file="Unittest_SpidersTestCase_test_q - 2017.11.17 at 17h 44m 44s.xml">
+      <configuration name="Unittest SpidersTestCase.test_q" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -574,25 +642,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="951" y="303" width="1845" height="998" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27232635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27302632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3194589" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2812846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25363827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26951092" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -604,15 +672,15 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29313928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2112383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27232635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27153763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25363827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2944849" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -781,56 +849,200 @@
           <line>1552</line>
           <option name="timeStamp" value="98" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>149</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>189</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>137</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>143</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>158</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>163</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/DC3.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/DC3.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_for.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_for.py</url>
+          <line>165</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_for.py</url>
+          <line>157</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_for.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_for.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_for.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_for.py</url>
+          <line>148</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_for.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_for.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_for.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_for.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_for.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_digui.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_digui.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_digui.py</url>
+          <line>143</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_digui.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_digui.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="99" />
+      <option name="time" value="171" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/huanqiu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="43" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/proxy_count.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="53" column="62" lean-forward="false" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/twice_request_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/pyocr/tesseract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="375" column="0" lean-forward="false" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/ygrandimg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/yanzhengma.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -948,7 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1037,7 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,7 +1293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13398">
           <caret line="652" column="0" lean-forward="false" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,15 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10983">
           <caret line="523" column="32" lean-forward="false" selection-start-line="523" selection-start-column="32" selection-end-line="523" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-1247971764/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53319">
-          <caret line="2539" column="8" lean-forward="false" selection-start-line="2539" selection-start-column="8" selection-end-line="2539" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,15 +1307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="861">
           <caret line="71" column="67" lean-forward="true" selection-start-line="71" selection-start-column="67" selection-end-line="71" selection-end-column="67" />
-          <folding>
-            <element signature="e#192#203#0" expanded="false" />
-            <element signature="e#399#725#0" expanded="false" />
-            <element signature="e#763#1079#0" expanded="false" />
-            <element signature="e#1117#1433#0" expanded="false" />
-            <element signature="e#2544#2902#0" expanded="false" />
-            <element signature="e#2943#3275#0" expanded="false" />
-            <element signature="e#3314#3652#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1123,7 +1314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14091">
           <caret line="671" column="0" lean-forward="false" selection-start-line="671" selection-start-column="0" selection-end-line="671" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1131,7 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,13 +1328,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy_tt/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="651">
           <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
           <folding />
         </state>
@@ -1155,7 +1343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1163,14 +1350,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38758">
           <caret line="196" column="1" lean-forward="true" selection-start-line="196" selection-start-column="1" selection-end-line="196" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy_tt/tt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#23#64#0" expanded="true" />
           </folding>
@@ -1179,8 +1365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/yule_star.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="21978" column="25" lean-forward="true" selection-start-line="21978" selection-start-column="25" selection-end-line="21978" selection-end-column="25" />
+        <state relative-caret-position="1911">
+          <caret line="21978" column="25" lean-forward="false" selection-start-line="21978" selection-start-column="25" selection-end-line="21978" selection-end-column="25" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <element signature="e#119#2311#0" expanded="false" />
@@ -1205,22 +1391,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_tt/unittest_spider.py">
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/text_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        <state relative-caret-position="345">
+          <caret line="69" column="14" lean-forward="false" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
           <folding>
-            <element signature="e#23#38#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/text_test.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-1247971764/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="78" column="29" lean-forward="false" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+        <state relative-caret-position="426">
+          <caret line="3618" column="12" lean-forward="true" selection-start-line="3618" selection-start-column="12" selection-end-line="3618" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="890">
+          <caret line="56" column="58" lean-forward="false" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="608" column="0" lean-forward="false" selection-start-line="608" selection-start-column="0" selection-end-line="608" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/DC3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1819">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/dc3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="162" column="51" lean-forward="true" selection-start-line="162" selection-start-column="51" selection-end-line="162" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_digui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/spiders/dc3_for.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="136" column="17" lean-forward="false" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#59#332#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy_tt/unittest_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="83" column="33" lean-forward="true" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
