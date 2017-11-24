@@ -159,13 +159,13 @@ class SpidersTestCase(unittest.TestCase):
     def test_selector(self):
         selector_css = 'body > table:nth-child(3) > tr:nth-child(1) > td:nth-child(2) > table:nth-child(4) >table:nth-child(0) > tr:nth-child(2) > .px12c > table > tr > td > div > founder-content *::text'
         css_re = re.compile(r'table[\-:()0-9a-zA-Z]*\s>')
-        add_tbody = ' tbody >'
+        # add_tbody = ' tbody >'
         t = css_re.finditer(selector_css)
-        count = 0
+        # count = 0
         # for i in t:
         #     count += 1
         # print(count)
-        star =[0]
+        star =[]
         end =[]
         for i in t:
             star.append(i.span()[0])
@@ -176,15 +176,21 @@ class SpidersTestCase(unittest.TestCase):
         list_len = len(star)
         table = []
         other = []
-        for i in list_len:
-            other.append(selector_css[:star[i]])
+        other.append(selector_css[:star[0]])
+        for i in range(list_len):
+            if i <list_len-1:
+                other.append(selector_css[end[i]:star[i+1]])
             table.append(selector_css[star[i]:end[i]])
+        other.append(selector_css[end[-1]:])
         # print(count)
         # star.append(selector_css[:i.span()[0]])
         # end.append(selector_css[i.span()[-1]:])
+        print(other)
+        print(table)
 
     def test_plzh(self):
         import itertools
+        add_tbody = ' tbody >'
         list1 = [1, 2, 3]
         list2 = []
         for i in range(1, len(list1) + 1):
