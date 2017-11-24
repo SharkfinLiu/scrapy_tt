@@ -191,11 +191,23 @@ class SpidersTestCase(unittest.TestCase):
     def test_plzh(self):
         import itertools
         add_tbody = ' tbody >'
+        other = [1,2,3,4]
+        table = ['a','b','c']
         list1 = [1, 2, 3]
         list2 = []
+        end = []
         for i in range(1, len(list1) + 1):
             iter = itertools.combinations(list1, i)
             list2.append(list(iter))
         for lis in list2:
             for li in lis:
-                print(list(li))
+                for i in list(li):
+                    other_1= other[:]
+                    table_1 = table[:]
+                    other_1.insert(i,'')
+                    table_1.insert(i,add_tbody)
+                for i in range(len(other_1)):
+                    end.append(other_1[i])
+                    if i < len(table_1):
+                        end.append(table_1[i])
+        print(end)
