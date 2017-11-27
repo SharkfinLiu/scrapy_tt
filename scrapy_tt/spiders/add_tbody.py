@@ -3,6 +3,8 @@ import itertools
 
 
 def add_tbody(selector_css):
+    selector_css = selector_css.split(',')[0]
+    selector_css = selector_css.replace('tbody','')
     add_tbody = ' tbody >'
     # 将table与非table拆分开
     css_re = re.compile(r'table[\-:()0-9a-zA-Z]*\s>')
