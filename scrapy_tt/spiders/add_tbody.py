@@ -43,4 +43,5 @@ def add_tbody(selector_css):
                     end.append(table_1[i])
             end.append(',')
     result = ''.join(end)
-    return result
+    result = selector_css + ',' + result
+    return (result)
