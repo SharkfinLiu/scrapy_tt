@@ -7,6 +7,7 @@ from scrapy_tt.spiders.dc3 import *
 from scrapy_tt.spiders.dc3_for import *
 from scrapy_tt.spiders.dc3_digui import *
 from scrapy_tt.spiders.dc3_for_2 import *
+from scrapy_tt.spiders.add_tbody import *
 
 class SpidersTestCase(unittest.TestCase):
 
@@ -159,18 +160,12 @@ class SpidersTestCase(unittest.TestCase):
     def test_selector(self):
         selector_css = 'body > table:nth-child(3) > tr:nth-child(1) > td:nth-child(2) > table:nth-child(4) >table:nth-child(0) > tr:nth-child(2) > .px12c > table > tr > td > div > founder-content *::text'
         css_re = re.compile(r'table[\-:()0-9a-zA-Z]*\s>')
-        # add_tbody = ' tbody >'
         t = css_re.finditer(selector_css)
-        # count = 0
-        # for i in t:
-        #     count += 1
-        # print(count)
         star =[]
         end =[]
         for i in t:
             star.append(i.span()[0])
             end.append(i.span()[-1])
-            # add_tbody = i.group() + ' tbody >'
         print(star)
         print(end)
         list_len = len(star)
@@ -182,17 +177,14 @@ class SpidersTestCase(unittest.TestCase):
                 other.append(selector_css[end[i]:star[i+1]])
             table.append(selector_css[star[i]:end[i]])
         other.append(selector_css[end[-1]:])
-        # print(count)
-        # star.append(selector_css[:i.span()[0]])
-        # end.append(selector_css[i.span()[-1]:])
         print(other)
         print(table)
 
     def test_plzh(self):
         import itertools
         add_tbody = ' tbody >'
-        other = [1,2,3,4]
-        table = ['a','b','c']
+        other = ['body > ', ' tr:nth-child(1) > td:nth-child(2) > ', ' tr:nth-child(2) > .px12c > ', ' tr > td > div > founder-content *::text']
+        table = ['table:nth-child(3) >', 'table:nth-child(4) >', 'table >']
         list1 = [1, 2, 3]
         list2 = []
         end = []
@@ -201,13 +193,22 @@ class SpidersTestCase(unittest.TestCase):
             list2.append(list(iter))
         for lis in list2:
             for li in lis:
+                other_1 = other[:]
+                table_1 = table[:]
                 for i in list(li):
-                    other_1= other[:]
-                    table_1 = table[:]
-                    other_1.insert(i,'')
-                    table_1.insert(i,add_tbody)
+                    # print(i)
+
+                    # other_1.insert(i,'')
+                    # table_1.insert(i,add_tbody)
+                    table_1[i-1] = table_1[i-1] + add_tbody
                 for i in range(len(other_1)):
                     end.append(other_1[i])
                     if i < len(table_1):
                         end.append(table_1[i])
+                end.append(',')
         print(end)
+        print(''.join(end))
+
+    def test_add_tbody(self):
+        result = add_tbody('body > table:nth-child(3) > tr:nth-child(1) > td:nth-child(2) > table:nth-child(4) >table:nth-child(0) > tr:nth-child(2) > .px12c > table > tr > td > div > founder-content *::text')
+        print(result)
